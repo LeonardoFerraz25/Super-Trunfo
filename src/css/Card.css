@@ -1,0 +1,98 @@
+.section-card {
+  background-color: #023031;
+  width: 50%;
+}
+
+.section-card h1 {
+  color: white;
+}
+
+.conteiner-card {
+  align-items: center;
+  display: flex;
+  height: 520px;
+  justify-content: center;
+  position: relative;
+}
+
+.card {
+  background-color: #036b52;
+  border-radius: 5px;
+  height: 500px;
+  outline: 8px solid white;
+  padding: 0.8rem;
+  position: relative;
+  width: 368px;
+}
+
+.card h2 {
+  background-color: #023031;
+  border-radius: 10px 10px 0 0;
+  color: white;
+  font-size: 30px;
+  height: 2.5rem;
+  padding-right: 0.5rem;
+  text-align: end;
+}
+
+.card-img-wrapper {
+  background-color: yellow;
+  height: 220px;
+  margin-bottom: 0.5rem;
+}
+
+.card-img-wrapper img {
+  height: 100%;
+  width: 100%;
+}
+
+.descricao {
+  background-color: #036b52;
+  height: 4rem;
+  left: 2px;
+  padding: 0.5rem;
+  padding-left: 1.5rem;
+  position: absolute;
+  text-align: center;
+  top: 245px;
+  transform: rotate(-8deg);
+  width: 360px;
+}
+
+.atributos {
+  background-color: white;
+  border-radius: 0 0 10px 10px;
+  height: 210px;
+  padding-left: 1rem;
+  padding-top: 4rem;
+}
+
+.atributos span {
+  font-size: 20px;
+  line-height: 3rem;
+}
+
+.verde {
+  background-color: #023031;
+  border-radius: 0 10px 10px 0;
+  color: white;
+  padding: 0.5rem;
+}
+
+.raridade {
+  color: gold;
+  font-size: 20px;
+  left: 20px;
+  position: absolute;
+  top: 25px;
+  z-index: 1;
+}
+
+.super-trunfo {
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  right: 20px;
+  top: 200px;
+  z-index: 1;
+}
