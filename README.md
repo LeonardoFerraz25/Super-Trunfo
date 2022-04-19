@@ -45,17 +45,15 @@ O tema do baralho é **livre**, então explore a sua criatividade!
 ## Instruções para o uso da aplicação
 
 1. Clone o repositório
-
 * `git clone git@github.com:tryber/sd-020-a-project-tryunfo.git`.
 * Entre na pasta do repositório que você acabou de clonar:
   * `cd sd-020-a-project-tryunfo`
 
-2. Instale as dependências e inicialize o projeto
-
+2. Instale as dependências e inicialize o projeto'
 * Instale as dependências:
   * `npm install`
 * Inicialize o projeto:
-  * `npm start` (uma nova página deve abrir no seu navegador com um texto simples)
+  * `npm start` (uma nova página deve abrir no seu navegador)
 
 ---
 
