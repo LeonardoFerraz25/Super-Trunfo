@@ -1,0 +1,94 @@
+.form-add-card {
+  border: 1px solid green;
+  height: 100vh;
+  width: 50%;
+}
+
+h1 {
+  font-size: 30px;
+  margin: 3rem;
+  margin-left: 5rem;
+}
+
+label {
+  margin: 0.5rem;
+}
+
+label p, span {
+  color: rgb(66, 66, 66);
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 1rem;
+}
+
+select {
+  background-color: white;
+  font-size: 16px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding-left: 6rem;
+}
+
+.form-control {
+  border: none;
+  border-bottom: 1px solid;
+  font-size: 18px;
+  height: 2.5rem;
+  margin-top: 0.5rem;
+  width: 400px;
+}
+
+.form-control:focus {
+  background-color: white;
+  border-color: #023031;
+  color: rgb(33, 37, 41);
+  outline: 0;
+}
+
+.input-atr {
+  align-self: center;
+  background-color: white;
+  border: 1px solid rgb(206, 212, 218);
+  border-radius: 0.25rem;
+  color: rgb(33, 37, 41);
+  font-size: 1rem;
+  font-weight: 400;
+  height: 2rem;
+  padding: 0.4rem 0.75rem;
+  transition: border-color 0.15s ease-in-out , box-shadow 0.15s ease-in-out;
+  width: 20.5rem;
+}
+
+.input-atr:focus {
+  background-color: white;
+  border-color: lightgray;
+  box-shadow: 0.1px 0.1px 10px #a7a7a7;
+  color: rgb(33, 37, 41);
+  outline: 0;
+}
+
+.input-img {
+  width: 19.7rem;
+}
+
+.trunfo-input {
+  margin-right: 1rem;
+}
+
+.salve-btn {
+  background-color: blue;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  height: 2rem;
+  margin-left: 5px;
+  width: 400px;
+}
+
+.salve-btn:disabled {
+  background-color: #a7a7a7;
+}
