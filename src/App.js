@@ -4,7 +4,7 @@ import './App.css';
 import Card from './components/Card';
 import ListCard from './components/ListCard';
 import Jogo from './components/Jogo';
-import cartas from './components/data';
+/* import cartas from './components/data'; */
 
 class App extends React.Component {
   constructor() {
@@ -21,7 +21,7 @@ class App extends React.Component {
       cardTrunfo: false,
       hasTrunfo: false,
       isSaveButtonDisabled: true,
-      cardSave: cartas,
+      cardSave: [],
     };
   }
 

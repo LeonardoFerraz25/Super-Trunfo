@@ -70,7 +70,7 @@ const cartas = [
     cardTrunfo: false,
   },
   {
-    cardName: 'Minato Namikaze',
+    cardName: 'Minato',
     cardDescription: 'O Relâmpago Amarelo de Konoha',
     cardAttr1: '70',
     cardAttr2: '70',
