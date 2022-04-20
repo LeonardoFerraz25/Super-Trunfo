@@ -1,5 +1,5 @@
 .form-add-card {
-  border: 1px solid green;
+  border: 2px solid #1F1F1F;
   height: 100vh;
   width: 50%;
 }
@@ -8,6 +8,7 @@ h1 {
   font-size: 30px;
   margin: 3rem;
   margin-left: 5rem;
+  font-style: italic;
 }
 
 label {
@@ -79,7 +80,7 @@ select {
 }
 
 .salve-btn {
-  background-color: blue;
+  background-color: #a10101;
   border: none;
   border-radius: 3px;
   color: white;

@@ -32,7 +32,7 @@ class Filter extends React.Component {
             <option value="raro">raro</option>
             <option value="muito raro">muito raro</option>
           </select>
-          <label htmlFor="trunfo-filter">
+          <label className="trunfo" htmlFor="trunfo-filter">
             Super Trunfo
             <input
               data-testid="trunfo-filter"

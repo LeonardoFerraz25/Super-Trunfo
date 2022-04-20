@@ -31,13 +31,13 @@ class Card extends React.Component {
                 Super Trunfo
               </p>)}
             <div className="atributos">
-              <span>attr01..........................................</span>
+              <span>attr01........................................</span>
               <span data-testid="attr1-card" className="verde">{cardAttr1}</span>
               <br />
-              <span>attr02..........................................</span>
+              <span>attr02........................................</span>
               <span data-testid="attr2-card" className="verde">{cardAttr2}</span>
               <br />
-              <span>attr03..........................................</span>
+              <span>attr03........................................</span>
               <span data-testid="attr3-card" className="verde">{cardAttr3}</span>
               <br />
               <h3 className="raridade" data-testid="rare-card">{cardRare}</h3>

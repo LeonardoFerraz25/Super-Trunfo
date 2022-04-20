@@ -1,10 +1,11 @@
 .section-card {
-  background-color: #023031;
+  background-color: #1F1F1F;
   width: 50%;
 }
 
 .section-card h1 {
   color: white;
+  font-style: italic;
 }
 
 .conteiner-card {
@@ -16,7 +17,7 @@
 }
 
 .card {
-  background-color: #036b52;
+  background-color: #a10101;
   border-radius: 5px;
   height: 500px;
   outline: 8px solid white;
@@ -26,17 +27,18 @@
 }
 
 .card h2 {
-  background-color: #023031;
+  background-color: #1F1F1F;
   border-radius: 10px 10px 0 0;
   color: white;
   font-size: 30px;
   height: 2.5rem;
   padding-right: 0.5rem;
+  padding-top: 0.5rem;
   text-align: end;
 }
 
 .card-img-wrapper {
-  background-color: yellow;
+  background-color: #292929;
   height: 220px;
   margin-bottom: 0.5rem;
 }
@@ -47,7 +49,7 @@
 }
 
 .descricao {
-  background-color: #036b52;
+  background-color: #a10101;
   height: 4rem;
   left: 2px;
   padding: 0.5rem;
@@ -57,6 +59,9 @@
   top: 245px;
   transform: rotate(-8deg);
   width: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .atributos {
@@ -73,7 +78,7 @@
 }
 
 .verde {
-  background-color: #023031;
+  background-color: #1F1F1F;
   border-radius: 0 10px 10px 0;
   color: white;
   padding: 0.5rem;
